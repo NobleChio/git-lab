@@ -1,1 +1,20 @@
- 
+1. What does git add do, and why is it necessary before committing?
+
+Git add gives you control over what gets included in your commit and it's 
+necessary before commiting because it keeps it organized.
+
+2. What does git commit do, and why is it necessary before pushing?
+
+Git commit is used to save changes and it's neccessary because git commit 
+stores changes locally in the Git repository.
+
+3. What is the difference between git clone and git pull, and when should each be used?
+
+Git clone is used to create a copy of an existing repository and is used when you want
+to download a project and set up a local repository connected to the remote. Git pull is used
+to update local repository and is used when you have already cloned a repository and want to
+ensure your version is up-to-date with the latest changes.
+
+4. How can you verify that a git pull was successful after making changes on GitHub?
+
+You can use git status and if it says it's up to date, the pull was successful.
